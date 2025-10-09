@@ -1,0 +1,14 @@
+{
+  "name": "GetProject",
+  "protocol": "HTTP|HTTPS",
+  "method": "GET",
+  "pathPattern": "/",
+  "parameters": [
+    {
+      "name": "Project",
+      "position": "Host",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

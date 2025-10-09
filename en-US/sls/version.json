@@ -1,5 +1,16 @@
 {
-  "version": "2016-08-01",
+  "version": "2020-12-30",
   "style": "restful",
-  "apis": {}
+  "apis": {
+    "GetProject": {
+      "title": "Get Project",
+      "summary": "Get Project",
+      "deprecated": false
+    },
+    "GetMetricStore": {
+      "title": "Get Metric Store",
+      "summary": "Get Metric Store",
+      "deprecated": false
+    }
+  }
 }

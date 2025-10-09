@@ -1,0 +1,25 @@
+{
+  "name": "GetMetricStore",
+  "security": [
+    "AK"
+  ],
+  "protocol": "HTTPS",
+  "method": "GET",
+  "pathPattern": "/metricstores/{name}",
+  "parameters": [
+    {
+      "name": "Project",
+      "description": "The name of the project.",
+      "position": "Host",
+      "type": "String",
+      "required": true
+    },
+    {
+      "name": "Name",
+      "description": "The name of the metric store.",
+      "position": "Path",
+      "type": "String",
+      "required": true
+    }
+  ]
+}

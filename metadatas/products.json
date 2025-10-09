@@ -1,6 +1,22 @@
 {
   "products": [
     {
+      "code": "Sls",
+      "version": "2020-12-30",
+      "name": {
+        "en": "log analystics",
+        "zh": "日志服务"
+      },
+      "location_service_code": "",
+      "regional_endpoints": {},
+      "global_endpoint": "",
+      "api_style": "restful",
+      "apis": [
+        "GetProject",
+        "GetMetricStore"
+      ]
+    },
+    {
       "code": "ARMS",
       "version": "2019-08-08",
       "name": {

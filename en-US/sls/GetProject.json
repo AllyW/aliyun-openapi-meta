@@ -1,0 +1,18 @@
+{
+  "name": "GetProject",
+  "security": [
+    "AK"
+  ],
+  "protocol": "HTTP|HTTPS",
+  "method": "GET",
+  "pathPattern": "",
+  "parameters": [
+    {
+      "name": "Project",
+      "description": "The name of the project.",
+      "position": "Host",
+      "type": "String",
+      "required": true
+    }
+  ]
+}
