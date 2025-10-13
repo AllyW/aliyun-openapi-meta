@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
+  "name": "GetOSSHDFSExport",
+  "protocol": "HTTP|HTTPS",
   "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "pathPattern": "/osshdfsexports/[ossExportName]",
   "parameters": [
     {
-      "name": "name",
+      "name": "ossExportName",
       "position": "Path",
       "type": "String",
       "required": true

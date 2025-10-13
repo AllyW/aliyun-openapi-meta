@@ -1,8 +1,8 @@
 {
-  "name": "GetProject",
-  "protocol": "HTTP|HTTPS",
-  "method": "GET",
-  "pathPattern": "/",
+  "name": "DeleteLogging",
+  "protocol": "HTTPS",
+  "method": "DELETE",
+  "pathPattern": "/logging",
   "parameters": [
     {
       "name": "project",

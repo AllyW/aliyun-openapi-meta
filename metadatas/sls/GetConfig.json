@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
+  "name": "GetConfig",
+  "protocol": "HTTP|HTTPS",
   "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "pathPattern": "/configs/[configName]",
   "parameters": [
     {
-      "name": "name",
+      "name": "configName",
       "position": "Path",
       "type": "String",
       "required": true

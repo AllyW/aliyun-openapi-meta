@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "name": "DeleteLogStore",
+  "protocol": "HTTP|HTTPS",
+  "method": "DELETE",
+  "pathPattern": "/logstores/[logstore]",
   "parameters": [
     {
-      "name": "name",
+      "name": "logstore",
       "position": "Path",
       "type": "String",
       "required": true

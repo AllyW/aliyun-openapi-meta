@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "name": "DeleteMachineGroup",
+  "protocol": "HTTP|HTTPS",
+  "method": "DELETE",
+  "pathPattern": "/machinegroups/[machineGroup]",
   "parameters": [
     {
-      "name": "name",
+      "name": "machineGroup",
       "position": "Path",
       "type": "String",
       "required": true

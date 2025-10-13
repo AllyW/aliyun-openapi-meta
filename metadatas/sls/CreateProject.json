@@ -1,12 +1,12 @@
 {
-  "name": "GetProject",
+  "name": "CreateProject",
   "protocol": "HTTP|HTTPS",
-  "method": "GET",
+  "method": "POST",
   "pathPattern": "/",
   "parameters": [
     {
-      "name": "project",
-      "position": "Host",
+      "name": "body",
+      "position": "Body",
       "type": "String",
       "required": true
     }

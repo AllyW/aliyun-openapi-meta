@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "name": "DeleteDownloadJob",
+  "protocol": "HTTP|HTTPS",
+  "method": "DELETE",
+  "pathPattern": "/downloadjobs/[downloadJobName]",
   "parameters": [
     {
-      "name": "name",
+      "name": "downloadJobName",
       "position": "Path",
       "type": "String",
       "required": true

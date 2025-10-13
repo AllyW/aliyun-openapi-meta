@@ -1,8 +1,8 @@
 {
-  "name": "GetMetricStore",
+  "name": "GetStoreView",
   "protocol": "HTTPS",
   "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "pathPattern": "/storeviews/[name]",
   "parameters": [
     {
       "name": "name",

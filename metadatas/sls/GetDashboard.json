@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
+  "name": "GetDashboard",
+  "protocol": "HTTP|HTTPS",
   "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "pathPattern": "/dashboards/[dashboardName]",
   "parameters": [
     {
-      "name": "name",
+      "name": "dashboardName",
       "position": "Path",
       "type": "String",
       "required": true

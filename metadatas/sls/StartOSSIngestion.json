@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "name": "StartOSSIngestion",
+  "protocol": "HTTP|HTTPS",
+  "method": "PUT",
+  "pathPattern": "/ossingestions/[ossIngestionName]?action=START",
   "parameters": [
     {
-      "name": "name",
+      "name": "ossIngestionName",
       "position": "Path",
       "type": "String",
       "required": true

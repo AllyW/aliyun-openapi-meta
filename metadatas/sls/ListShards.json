@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
+  "name": "ListShards",
+  "protocol": "HTTP|HTTPS",
   "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "pathPattern": "/logstores/[logstore]/shards",
   "parameters": [
     {
-      "name": "name",
+      "name": "logstore",
       "position": "Path",
       "type": "String",
       "required": true

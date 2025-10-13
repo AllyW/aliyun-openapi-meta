@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
+  "name": "DeleteLogtailPipelineConfig",
   "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "method": "DELETE",
+  "pathPattern": "/pipelineconfigs/[configName]",
   "parameters": [
     {
-      "name": "name",
+      "name": "configName",
       "position": "Path",
       "type": "String",
       "required": true

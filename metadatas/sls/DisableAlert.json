@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
+  "name": "DisableAlert",
   "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "method": "PUT",
+  "pathPattern": "/alerts/[alertName]?action=disable",
   "parameters": [
     {
-      "name": "name",
+      "name": "alertName",
       "position": "Path",
       "type": "String",
       "required": true

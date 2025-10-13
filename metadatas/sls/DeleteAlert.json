@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "name": "DeleteAlert",
+  "protocol": "HTTP|HTTPS",
+  "method": "DELETE",
+  "pathPattern": "/alerts/[alertName]",
   "parameters": [
     {
-      "name": "name",
+      "name": "alertName",
       "position": "Path",
       "type": "String",
       "required": true

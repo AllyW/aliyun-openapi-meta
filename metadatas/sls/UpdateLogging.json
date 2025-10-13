@@ -1,12 +1,12 @@
 {
-  "name": "GetMetricStore",
+  "name": "UpdateLogging",
   "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "method": "PUT",
+  "pathPattern": "/logging",
   "parameters": [
     {
-      "name": "name",
-      "position": "Path",
+      "name": "body",
+      "position": "Body",
       "type": "String",
       "required": true
     },

@@ -1,7 +1,7 @@
 {
-  "name": "GetMetricStore",
+  "name": "DeleteMetricStore",
   "protocol": "HTTPS",
-  "method": "GET",
+  "method": "DELETE",
   "pathPattern": "/metricstores/[name]",
   "parameters": [
     {

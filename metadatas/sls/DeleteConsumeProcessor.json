@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
+  "name": "DeleteConsumeProcessor",
   "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "method": "DELETE",
+  "pathPattern": "/consumeprocessors/[processorName]",
   "parameters": [
     {
-      "name": "name",
+      "name": "processorName",
       "position": "Path",
       "type": "String",
       "required": true

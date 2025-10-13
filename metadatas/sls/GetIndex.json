@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
+  "name": "GetIndex",
+  "protocol": "HTTP|HTTPS",
   "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "pathPattern": "/logstores/[logstore]/index",
   "parameters": [
     {
-      "name": "name",
+      "name": "logstore",
       "position": "Path",
       "type": "String",
       "required": true

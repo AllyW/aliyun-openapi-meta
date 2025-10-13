@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
+  "name": "ListConsumerGroup",
+  "protocol": "HTTP|HTTPS",
   "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "pathPattern": "/logstores/[logstore]/consumergroups",
   "parameters": [
     {
-      "name": "name",
+      "name": "logstore",
       "position": "Path",
       "type": "String",
       "required": true

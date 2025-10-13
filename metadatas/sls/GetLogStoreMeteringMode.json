@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
+  "name": "GetLogStoreMeteringMode",
   "protocol": "HTTPS",
   "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "pathPattern": "/logstores/[logstore]/meteringmode",
   "parameters": [
     {
-      "name": "name",
+      "name": "logstore",
       "position": "Path",
       "type": "String",
       "required": true

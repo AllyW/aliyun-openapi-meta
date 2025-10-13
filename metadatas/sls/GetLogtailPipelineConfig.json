@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
+  "name": "GetLogtailPipelineConfig",
   "protocol": "HTTPS",
   "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "pathPattern": "/pipelineconfigs/[configName]",
   "parameters": [
     {
-      "name": "name",
+      "name": "configName",
       "position": "Path",
       "type": "String",
       "required": true

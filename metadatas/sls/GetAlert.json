@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
+  "name": "GetAlert",
+  "protocol": "HTTP|HTTPS",
   "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "pathPattern": "/alerts/[alertName]",
   "parameters": [
     {
-      "name": "name",
+      "name": "alertName",
       "position": "Path",
       "type": "String",
       "required": true

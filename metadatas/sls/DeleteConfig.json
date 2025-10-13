@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "name": "DeleteConfig",
+  "protocol": "HTTP|HTTPS",
+  "method": "DELETE",
+  "pathPattern": "/configs/[configName]",
   "parameters": [
     {
-      "name": "name",
+      "name": "configName",
       "position": "Path",
       "type": "String",
       "required": true

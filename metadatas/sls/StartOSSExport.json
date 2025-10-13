@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "name": "StartOSSExport",
+  "protocol": "HTTP|HTTPS",
+  "method": "PUT",
+  "pathPattern": "/ossexports/[ossExportName]?action=START",
   "parameters": [
     {
-      "name": "name",
+      "name": "ossExportName",
       "position": "Path",
       "type": "String",
       "required": true

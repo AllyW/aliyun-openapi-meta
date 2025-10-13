@@ -1,12 +1,12 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "name": "CreateDomain",
+  "protocol": "HTTP|HTTPS",
+  "method": "POST",
+  "pathPattern": "/domains",
   "parameters": [
     {
-      "name": "name",
-      "position": "Path",
+      "name": "body",
+      "position": "Body",
       "type": "String",
       "required": true
     },

@@ -1,9 +1,15 @@
 {
-  "name": "GetMetricStore",
+  "name": "UpdateStoreView",
   "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "method": "PUT",
+  "pathPattern": "/storeviews/[name]",
   "parameters": [
+    {
+      "name": "body",
+      "position": "Body",
+      "type": "String",
+      "required": false
+    },
     {
       "name": "name",
       "position": "Path",

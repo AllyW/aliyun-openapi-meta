@@ -1,14 +1,14 @@
 {
-  "name": "GetMetricStore",
+  "name": "CreateSqlInstance",
   "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "method": "POST",
+  "pathPattern": "/sqlinstance",
   "parameters": [
     {
-      "name": "name",
-      "position": "Path",
+      "name": "body",
+      "position": "Body",
       "type": "String",
-      "required": true
+      "required": false
     },
     {
       "name": "project",

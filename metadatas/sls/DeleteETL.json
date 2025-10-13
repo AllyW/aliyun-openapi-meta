@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "name": "DeleteETL",
+  "protocol": "HTTP|HTTPS",
+  "method": "DELETE",
+  "pathPattern": "/etls/[etlName]",
   "parameters": [
     {
-      "name": "name",
+      "name": "etlName",
       "position": "Path",
       "type": "String",
       "required": true

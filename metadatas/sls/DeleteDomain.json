@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
-  "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "name": "DeleteDomain",
+  "protocol": "HTTP|HTTPS",
+  "method": "DELETE",
+  "pathPattern": "/domains/[domainName]",
   "parameters": [
     {
-      "name": "name",
+      "name": "domainName",
       "position": "Path",
       "type": "String",
       "required": true

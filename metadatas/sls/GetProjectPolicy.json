@@ -1,14 +1,14 @@
 {
-  "name": "GetProject",
-  "protocol": "HTTP|HTTPS",
+  "name": "GetProjectPolicy",
+  "protocol": "HTTPS",
   "method": "GET",
-  "pathPattern": "/",
+  "pathPattern": "/policy",
   "parameters": [
     {
       "name": "project",
       "position": "Host",
       "type": "String",
-      "required": true
+      "required": false
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
-  "protocol": "HTTPS",
+  "name": "GetMaxComputeExport",
+  "protocol": "HTTP|HTTPS",
   "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "pathPattern": "/maxcomputeexports/[mcExportName]",
   "parameters": [
     {
-      "name": "name",
+      "name": "mcExportName",
       "position": "Path",
       "type": "String",
       "required": true

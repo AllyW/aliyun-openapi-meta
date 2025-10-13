@@ -1,11 +1,11 @@
 {
-  "name": "GetMetricStore",
+  "name": "GetIngestProcessor",
   "protocol": "HTTPS",
   "method": "GET",
-  "pathPattern": "/metricstores/[name]",
+  "pathPattern": "/ingestprocessors/[processorName]",
   "parameters": [
     {
-      "name": "name",
+      "name": "processorName",
       "position": "Path",
       "type": "String",
       "required": true
